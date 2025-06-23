@@ -2,10 +2,6 @@
 import { type WebPageResponse } from '../schema';
 
 export async function getHelloPage(): Promise<WebPageResponse> {
-    // This is a placeholder declaration! Real code should be implemented here.
-    // The goal of this handler is to return HTML content for a simple web page
-    // with a single red button displaying "hello" text.
-    
     const html = `
     <!DOCTYPE html>
     <html lang="en">
